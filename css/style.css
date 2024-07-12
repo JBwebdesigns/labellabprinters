@@ -1,0 +1,253 @@
+/* Global Styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  font-size: 16px;
+  line-height: 1.8em;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+a {
+  color: #f39422;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+/* Header Styles */
+
+.main-nav {
+  background: #010038;
+}
+
+.header-image {
+height: 40vh;
+min-height: 400px;
+background: url('../images/closet-clothes-colors-581087.jpg') center/cover no-repeat fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.color-overlay {
+width: 100%;
+height: 100%;
+background: #293a80;
+opacity: .7;
+position:absolute;
+}
+
+.header-text-container{
+  z-index: 1;
+}
+
+.header-text {
+  color: white;
+}
+
+.header-section-p {
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  background: #e5e5e5;
+}
+
+.section-p {
+  margin: 50px auto 75px;
+  text-align: center;
+}
+
+.headingLine {
+  width: 3rem;
+  height: .2rem;
+  background-color: #010038;
+  margin: 2rem auto 2rem;
+}
+
+/* Services Section Styles */
+
+.services-section-title {
+  text-align: center;
+  margin: 50px auto 100px;
+  padding-top: 56px;
+}
+
+.card-header,
+.modal-header {
+  background: #010038;
+  color: white;
+}
+
+.card-footer,
+.modal-footer {
+  background: #010038;
+}
+
+/* About Section Styles */
+
+.about-section-title {
+  text-align: center;
+  margin: 100px auto 125px;
+  padding-top: 56px;
+}
+
+.matt-image-div {
+  width: 450px;
+  height: 250px;
+}
+
+.matt-image {
+  width: 356.4px;
+  height: 244.2px;
+  border-radius: 5%;
+}
+
+.mailing-list {
+  margin: 100px auto;
+}
+
+.mailchimp-icon {
+  height: 3em;
+  width: 3em;
+  margin-bottom: 20px;
+}
+
+.close {
+  color: white;
+}
+
+.close:hover {
+  color: #f39422;
+}
+
+/* Contact Section */
+
+.contact-section-title {
+  text-align: center;
+  margin: 75px auto 100px;
+  padding-top: 56px;
+}
+
+.contact-section {
+  background: #e5e5e5;
+  padding: 5px 0 50px;
+}
+
+.visit-heading {
+  margin-bottom: 45px;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+.address-area {
+  margin-top: 50px;
+}
+
+.fa-phone,
+.fa-clock,
+.fa-map-marked-alt {
+  color: #293a80;
+}
+
+.social-icons {
+  height: 3em;
+  width: 3em;
+  margin: 20px 10px;
+}
+
+/* Button Styles */
+
+.btn-primary {
+  background: #293a80;
+  border: 1px solid #293a80;
+}
+
+.btn-primary:hover {
+  background: #f39422;
+  border: 1px solid #f39422;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+/* Footer Styles */
+
+.footer {
+  background: #010038;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+/* Media Queries */
+
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+
+@media (max-width: 992px) {
+  .header-image {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 425px) {
+  .header-image {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-text {
+    font-size: 85px;
+  }
+}
+
+@media (max-width: 425px) {
+  .about-text {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .visit-heading {
+    /* margin-top: 50px; */
+    margin: 50px 0;
+  }
+
+}
