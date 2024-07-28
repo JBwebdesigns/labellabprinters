@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             if (mail($recipient, $message_subject, $email_content, $email_headers)) {
                 $_SESSION['msg'] = '<div class="alert alert-success" role="alert">Thank you for reaching out! Your message has been sent successfully.</div>';
-                header("Location: index.php#contact");
+                header("Location: index.html");
             } else {
                 $_SESSION['msg'] = '<div class="alert alert-danger" role="alert">Ooops! Something went wrong. Please try again.</div>';
                 header("Location: index.php#contact");
