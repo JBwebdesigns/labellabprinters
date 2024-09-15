@@ -3,6 +3,22 @@
 html {
   scroll-behavior: smooth;
 }
+.jonah1{
+  background-color: #505c8d10;
+}
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #505c8dc7;
+  color: #dfae0e;
+}
+.background1{
+  background-color: #505c8dc7;
+}
+button{
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgba(44, 44, 40, 0.205)0, 0, 0, 0.158);
+}
 
 body {
   position: relative;
