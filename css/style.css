@@ -3,6 +3,10 @@
 html {
   scroll-behavior: smooth;
 }
+.canvas-section{
+  padding-bottom: 50px;
+
+}
 .jonah1{
   background-color: #505c8d10;
 }
@@ -21,12 +25,17 @@ button{
 }
 
 body {
+  background-image: url("assets/many t-shirts.jpg");
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
   position: relative;
   min-height: 100vh;
   font-size: 16px;
   line-height: 1.8em;
   /* font-family: 'Roboto', sans-serif; */
 }
+
 
 a {
   color: #f39422;
