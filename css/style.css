@@ -10,8 +10,13 @@ h4{
   background-color: #505c8dc7;
   color: #dfae0e;
 }
+.tabs{
+  display: flex;
+  justify-content: space-between;
+}
 .tab{
-  padding: 10px;
+  padding: 10px 20px;
+  
 }
 .background1{
   background-color: #505c8dc7;
