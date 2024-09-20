@@ -17,6 +17,7 @@ button{
   width: 70px;
   border-radius: 10px;
   background-color: rgba(44, 44, 40, 0.205)0, 0, 0, 0.158);
+  padding:10px;
 }
 
 body {
