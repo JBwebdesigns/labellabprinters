@@ -9,6 +9,7 @@ html {
 h6{
   background-color: #505c8dc7;
   color: #dfae0e;
+  padding-bottom: 8px;
 }
 .tabs{
   display: flex;
