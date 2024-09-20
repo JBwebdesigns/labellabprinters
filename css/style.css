@@ -84,16 +84,8 @@ position:absolute;
   color: white;
 }
 
-.header-section-p {
-  margin: 0 auto;
-  padding: 50px 0;
-  padding-left: 20%;
-  padding-right: 20%;
-  text-align: center;
-  background-image: url('assets/labellab photos.jpeg');
-}
-.bg-image {
-  background-image: url('path/to/your/image.jpg'); /* Change this to your image path */
+.grace
+  background-image: url('assets/labellab photos.jpeg'); /* Change this to your image path */
   background-size: cover; /* Ensures the image covers the entire area */
   background-position: center; /* Centers the image */
   padding: 50px; /* Adds some padding around the text */
