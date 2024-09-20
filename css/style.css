@@ -92,6 +92,15 @@ position:absolute;
   text-align: center;
   background-image: url('assets/labellab photos.jpeg');
 }
+.bg-image {
+  background-image: url('path/to/your/image.jpg'); /* Change this to your image path */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  padding: 50px; /* Adds some padding around the text */
+  color: white; /* Change text color for better visibility */
+  text-align: center; /* Centers the text */
+}
+
 
 .section-p {
   margin: 50px auto 75px;
